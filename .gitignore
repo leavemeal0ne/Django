@@ -1,11 +1,12 @@
 
 lab1/confings/config.py
+lab2/confings/config.py
 .idea/
-.db
+*.db
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-
+*.pyc
 # C extensions
 *.so
 
@@ -52,3 +53,4 @@ coverage.xml
 
 # Sphinx documentation
 docs/_build/
+/lab2/confings/config.py

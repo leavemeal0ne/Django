@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Makaruk_lab_2</class>
+ <widget class="QMainWindow" name="Makaruk_lab_2">
+  <property name="enabled">
+   <bool>true</bool>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1200</width>
+    <height>680</height>
+   </rect>
+  </property>
+  <property name="baseSize">
+   <size>
+    <width>1500</width>
+    <height>1000</height>
+   </size>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
+  <property name="windowTitle">
+   <string>Makaruk_lab_2</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1201</width>
+      <height>681</height>
+     </rect>
+    </property>
+    <property name="mouseTracking">
+     <bool>true</bool>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="MSQLTAB">
+     <attribute name="title">
+      <string>MSQL</string>
+     </attribute>
+     <widget class="QTableWidget" name="MSQLTABLE">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1201</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>1201</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="showGrid">
+       <bool>true</bool>
+      </property>
+      <attribute name="horizontalHeaderCascadingSectionResizes">
+       <bool>false</bool>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>address</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>building type</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>apartment type</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>square</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>rooms</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>balcony</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>floor</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>price</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="UPDATE">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>390</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>UPDATE</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="ADD">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>480</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>ADD</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="DELETE">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>570</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>DELETE</string>
+      </property>
+     </widget>
+     <widget class="QTableWidget" name="MSQLTABLE_2">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>480</y>
+        <width>821</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>1201</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="showGrid">
+       <bool>true</bool>
+      </property>
+      <attribute name="horizontalHeaderCascadingSectionResizes">
+       <bool>false</bool>
+      </attribute>
+      <row>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>address</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>building type</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>apartment type</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>square</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>rooms</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>balcony</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>floor</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>price</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QTableWidget" name="MSQLTABLE_3">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>570</y>
+        <width>131</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <row>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </row>
+      <column>
+       <property name="text">
+        <string>address</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="IMPORT">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>390</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>IMPORT</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_3">
+     <attribute name="title">
+      <string>POSTGRESQL</string>
+     </attribute>
+     <widget class="QTableWidget" name="POSTGRESTABLE">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1201</width>
+        <height>371</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>1201</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="showGrid">
+       <bool>true</bool>
+      </property>
+      <attribute name="horizontalHeaderCascadingSectionResizes">
+       <bool>false</bool>
+      </attribute>
+      <column>
+       <property name="text">
+        <string>address</string>
+       </property>
+       <property name="textAlignment">
+        <set>AlignCenter</set>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>building type</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>apartment type</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>square</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>rooms</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>balcony</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>floor</string>
+       </property>
+      </column>
+      <column>
+       <property name="text">
+        <string>price</string>
+       </property>
+      </column>
+     </widget>
+     <widget class="QPushButton" name="SELECT">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>410</y>
+        <width>81</width>
+        <height>71</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>SELECT</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="TEXTLINE">
+      <property name="geometry">
+       <rect>
+        <x>340</x>
+        <y>510</y>
+        <width>541</width>
+        <height>51</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Georgia</family>
+        <pointsize>24</pointsize>
+       </font>
+      </property>
+      <property name="inputMask">
+       <string/>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+      <property name="placeholderText">
+       <string>input fields number (1,2... 8)</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>SQLITE</string>
+     </attribute>
+     <widget class="QTableWidget" name="SQLITETABLE">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>0</y>
+        <width>1201</width>
+        <height>661</height>
+       </rect>
+      </property>
+      <property name="maximumSize">
+       <size>
+        <width>1201</width>
+        <height>16777215</height>
+       </size>
+      </property>
+      <property name="showGrid">
+       <bool>true</bool>
+      </property>
+      <attribute name="horizontalHeaderCascadingSectionResizes">
+       <bool>false</bool>
+      </attribute>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
