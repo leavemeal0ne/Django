@@ -1,0 +1,52 @@
+#back_button{
+    position: fixed;
+    bottom: 70px;
+    left: 70px;
+}
+
+
+body{
+   background-color:  rgba(109, 93, 110, 0.79);
+}
+h1 {
+    text-align: center  ;
+}
+
+.row p{
+    font-size: 40px;
+}
+
+.container-fluid {
+    /*width: 70%;*/
+    /*margin-top: 7%;*/
+    /*margin-bottom: 7%;*/
+    /*padding: 2%;*/
+    padding: 0;
+}
+
+.col-4{
+
+}
+
+.col-4 h2, .col-4 svg{
+    margin-top: 10px;
+}
+
+.xd {
+    padding: 2% 0 ;
+    border: solid;
+    border-width: 4px 4px 4px 0;
+    border-color: black;
+}
+
+#main {
+    margin: 1% 0;
+}
+
+#contacts{
+   margin: 2%;
+}
+
+#inside_row{
+    margin: 10%;
+}

@@ -54,3 +54,6 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 /lab2/confings/config.py
+/lab4/pyvenv.cfg
+/lab4/Include/
+/lab4/Scripts/
