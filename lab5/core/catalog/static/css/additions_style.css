@@ -1,0 +1,29 @@
+body{
+   background-color:  rgba(109, 93, 110, 0.79);
+}
+
+#back_button{
+    position: fixed;
+    bottom: 70px;
+    left: 70px;
+}
+
+.container-fluid {
+    width: 70%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    padding: 2%;
+
+}
+
+.row p{
+    font-size: 40px;
+}
+
+.col-12{
+    border-bottom: solid black 1px;
+}
+
+.col-12 svg{
+    float: left;
+}

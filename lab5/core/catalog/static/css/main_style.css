@@ -1,0 +1,52 @@
+body{
+    background-color: rgba(109, 93, 110, 0.79);
+
+}
+
+.nav-item{
+    font-size: 25px;
+}
+
+div #carouselControls{
+    height: 20vh;
+}
+
+#carouselControls{
+    background-color: #6D5D6E;
+
+}
+
+.carousel-item img{
+    object-fit: fill;
+}
+.carousel-item{
+    height: 100vh;
+}
+
+.bg-success{
+    border: 1px black solid;
+}
+
+.menu {
+    margin-top:  150px;
+    margin-bottom: 150px;
+}
+
+@media screen and (max-width: 600px){
+     .carousel-item{
+        height: 40vh;
+    }
+}
+
+.p_content {
+    margin: 20px;
+    font-size: 40px;
+}
+
+.b_row{
+    margin-top: 150px;
+}
+
+.main_text{
+    font-size: 20px;
+}

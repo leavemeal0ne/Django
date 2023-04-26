@@ -1,0 +1,50 @@
+body{
+    background-color: #393646;
+
+}
+
+.container-fluid{
+    width: 70%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+    padding: 2%;
+    background-color: #6D5D6E;
+}
+
+.col-sm-12{
+    padding: 0;
+}
+.col-sm-12  img{
+    float: left;
+    width: 395px;
+}
+.col-sm-12  ul{
+    margin: 5px 10px;
+    float: left;
+    font-size: 24px;
+}
+a:hover {
+    text-decoration: none;
+    color: #212529;
+}
+
+ul{
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.row{
+    background-color: rgba(244, 238, 224, 0.66);
+}
+
+#back_button{
+    position: fixed;
+    bottom: 70px;
+    left: 70px;
+}
+
+
